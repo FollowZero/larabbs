@@ -12,7 +12,7 @@ class NotificationsController extends Controller
         $this->middleware('auth');
     }
 
-    
+
     public function index()
     {
         // 获取登录用户的所有通知
