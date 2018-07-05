@@ -173,6 +173,49 @@
         ]
     },
     {
+        "name": "ckeditor/ckeditor",
+        "version": "4.10.0",
+        "version_normalized": "4.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ckeditor/ckeditor-releases.git",
+            "reference": "485918a01ecac5bd286f169e831eddcc895f5132"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/ckeditor/ckeditor-releases/485918a01ecac5bd286f169e831eddcc895f5132.zip",
+            "reference": "485918a01ecac5bd286f169e831eddcc895f5132",
+            "shasum": ""
+        },
+        "time": "2018-07-03T13:41:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+",
+            "LGPL-2.1+",
+            "MPL-1.1+"
+        ],
+        "authors": [
+            {
+                "name": "CKSource",
+                "homepage": "http://cksource.com"
+            }
+        ],
+        "description": "JavaScript WYSIWYG web text editor.",
+        "homepage": "http://ckeditor.com",
+        "keywords": [
+            "CKEditor",
+            "editor",
+            "fckeditor",
+            "html",
+            "javascript",
+            "richtext",
+            "text",
+            "wysiwyg"
+        ]
+    },
+    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "0.1",
         "version_normalized": "0.1.0.0",
@@ -3967,6 +4010,69 @@
             "permission",
             "security",
             "spatie"
+        ]
+    },
+    {
+        "name": "summerblue/administrator",
+        "version": "v1.1.8",
+        "version_normalized": "1.1.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/summerblue/administrator.git",
+            "reference": "22869b39e471dcf43dd7eca7fd4839cc3836f14e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/summerblue/administrator/22869b39e471dcf43dd7eca7fd4839cc3836f14e.zip",
+            "reference": "22869b39e471dcf43dd7eca7fd4839cc3836f14e",
+            "shasum": ""
+        },
+        "require": {
+            "ckeditor/ckeditor": "4.*",
+            "laravel/framework": "5.5.*",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9",
+            "phpunit/phpunit": "~5.7.12"
+        },
+        "time": "2018-06-17T04:15:56+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Frozennode\\Administrator\\AdministratorServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/controllers"
+            ],
+            "psr-0": {
+                "Frozennode\\Administrator": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Original: Jan Hartigan, modified by CJ",
+                "email": "cj@estgroupe.com"
+            }
+        ],
+        "description": "A database interface package for Laravel, modified!",
+        "homepage": "https://github.com/summerblue/administrator",
+        "keywords": [
+            "admin",
+            "administrator",
+            "cms",
+            "database",
+            "laravel",
+            "laravel-administrator"
         ]
     },
     {
